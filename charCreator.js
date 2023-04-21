@@ -3,12 +3,12 @@ const readLine = require('readline-sync')
 let dicedRolled = [];
 let character1 ={
     //empty for now
-};
+}
 
 function rolled6(){
    return Math.ceil( Math.random()*6)
 }
-console.log(rolled6())
+console.log(rolled6());
 
 
 }
@@ -57,10 +57,15 @@ function createChar(list){
 function displayChar(char){
    console.log(`Name: ${char.name}`);
    console.log(`STR: ${char.strength}`);
-   console.log(`DEX: ${char.dexterity}`);
+   console.log(`DEX: ${char.dexterity}`);${char.charisma}${char.charisma}
    console.log(`CON: ${char.constitution}`);
    console.log(`INT: ${char.intelligence}`);
-   console.log(`WIS: ${char.wisdom}`);
+   console.log(`WIS: ${char.wisdom}`);${char.charisma}
    console.log(`CHA: ${char.charisma}`);
+   console.log(`-----------------`);
 
 }
+
+
+
+

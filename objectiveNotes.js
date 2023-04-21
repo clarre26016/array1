@@ -38,6 +38,7 @@ let c = {
     value:20
 };
 
+
 console.log( a == b);
 console.log( a == c);
 console.log( b == c);
