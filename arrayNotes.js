@@ -17,4 +17,9 @@ console.log('Student: '+ students[0]);
 console.log(`student 2: ${students[1]}`);
 
 //changing an item
-students[1] = ''
+students[1] = 'Stephanie';
+console.log(students);
+
+//push adds to the end
+students.push('Eve');
+console.log(students)
